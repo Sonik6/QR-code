@@ -6,21 +6,24 @@ body{
   box-sizing: border-box;
   font-family: 'Outfit', serif;
   background-color: hsl(170, 40%, 80%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100vh;
 }
 
 .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  gap: 15px
+
+}
+.bgc{
   background-color: hsl(0, 0%, 100%);
   max-width: 250px;
   padding: 15px;
   border-radius: 15px;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 img{
